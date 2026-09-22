@@ -1,0 +1,8 @@
+在git fetch之前执行
+
+git config --global http.proxy http://127.0.0.1:7897
+git config --global https.proxy http://127.0.0.1:7897
+
+刚修改完，还没 git add      git diff           查看工作区修改了什么
+已经 git add，还没 commit   git diff --cached  查看暂存区准备提交的内容
+已经 git commit 了          git show           查看最新一次提交记录的修改
