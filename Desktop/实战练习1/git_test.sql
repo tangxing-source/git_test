@@ -1,4 +1,4 @@
 SELECT
-    my_columns
+    my_columns_new
 FROM
     my_table;
